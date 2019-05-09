@@ -1,0 +1,64 @@
+#wanted{
+display: flex;
+justify-content: space-around;
+
+}
+
+.profile {
+position: relative;
+display: block;
+text-align: center;
+}
+
+.img {
+filter: opacity(50%);
+}
+
+.reward {
+position: absolute;
+top: 2%;
+right: 10%;
+margin: auto;
+width: 180px;
+text-align: center;
+color: black;
+
+word-wrap: break-word;
+font-weight: bold;
+font-size: 2em;
+color: black;
+border: 0px solid black;
+padding: 10px;
+border-radius: 10px;
+background-color: rgba(255, 255, 255, 0.67);
+}
+
+.orange_color {
+color: #FFA500;
+}
+
+.name{
+position: absolute;
+bottom: 40%;
+right: 15%;
+width: 180px;
+text-align: center;
+color: black;
+font-weight: bold;
+font-size: 45px;
+color: white;
+}
+
+
+.img:hover {
+filter: opacity(100%);
+}
+
+.profile:hover .reward{
+  visibility: hidden;
+}
+
+.profile:hover .name{
+  visibility: hidden;
+}
+
